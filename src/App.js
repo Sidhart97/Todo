@@ -5,7 +5,7 @@ import { useState } from 'react';
 function App() {
   const [toDos,setToDos]= useState([])
   const [toDo,setTodo] = useState('')
-
+  
   console.log(toDos)
   const handleDelete = (id) => {
     const filter =  toDos.filter((obj)=>{
